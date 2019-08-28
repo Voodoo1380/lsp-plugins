@@ -12,6 +12,7 @@
 
 === 1.1.11 ===
 
+* Build fixes for Aarch64 architecture related to CPU feature detection.
 - Decomposition of core modules into submodules.
 - Additional code updates to get compatibility with WindowsNT platform.
 - Research the work of plugins under Audacity.
