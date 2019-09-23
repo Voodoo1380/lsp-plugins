@@ -12,6 +12,7 @@
 
 === 1.1.11 ===
 
+* Source code now compiles for the ARMv6A architecture.
 * Build fixes for Aarch64 architecture related to CPU feature detection.
 * Fixed memory corruption bug in Analyzer core module that could crash the system on
   non-power-of-two buffer sizes. Affected plugins: Parametric Equalizer, Graphic Equalizer,
