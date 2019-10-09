@@ -17,6 +17,8 @@
 * Fixed memory corruption bug in Analyzer core module that could crash the system on
   non-power-of-two buffer sizes. Affected plugins: Parametric Equalizer, Graphic Equalizer,
   Spectrum Analyzer, Multiband Compressor.
+* Fixed corrupted LADSPA binaries due to lack of objects containing non-required resources.
+  Replaced objects with empty stubs.
 - Decomposition of core modules into submodules.
 - Additional code updates to get compatibility with WindowsNT platform.
 - Research the work of plugins under Audacity.
